@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FitzenBackendApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(FitzenBackendApplication.class, args);
 	}
 
