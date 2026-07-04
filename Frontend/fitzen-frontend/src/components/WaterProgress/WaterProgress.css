@@ -1,0 +1,67 @@
+.water-card{
+
+    background:#1f2937;
+
+    padding:30px;
+
+    border-radius:22px;
+
+    color:white;
+
+    flex:1;
+
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.water-top{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-bottom:25px;
+
+    font-size:22px;
+
+    color:#38bdf8;
+}
+
+.water-progress{
+
+    width:100%;
+
+    height:18px;
+
+    background:#374151;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+    margin-bottom:25px;
+}
+
+.fill{
+
+    width:80%;
+
+    height:100%;
+
+    background:linear-gradient(90deg,#06b6d4,#3b82f6);
+
+    border-radius:30px;
+}
+
+.water-card h1{
+
+    font-size:40px;
+
+    margin-bottom:8px;
+}
+
+.water-card span{
+
+    color:#9ca3af;
+}

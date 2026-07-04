@@ -1,0 +1,135 @@
+.sleep-list{
+
+    margin-top:40px;
+
+    background:#1f2937;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.sleep-title{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:25px;
+
+}
+
+.sleep-title svg{
+
+    color:#7c3aed;
+
+    font-size:24px;
+
+}
+
+.sleep-title h2{
+
+    color:white;
+
+    font-size:28px;
+
+}
+
+.sleep-card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:22px;
+
+    background:#111827;
+
+    border-radius:16px;
+
+    margin-bottom:18px;
+
+    transition:.3s;
+
+}
+
+.sleep-card:hover{
+
+    transform:translateY(-4px);
+
+    background:#26354a;
+
+}
+
+.sleep-left h3{
+
+    color:white;
+
+    margin-bottom:8px;
+
+}
+
+.sleep-left p{
+
+    color:#9ca3af;
+
+}
+
+.sleep-right{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.sleep-right span{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:white;
+
+    font-weight:600;
+
+}
+
+.sleep-right svg{
+
+    color:#7c3aed;
+
+}
+
+@media(max-width:900px){
+
+.sleep-card{
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+    gap:20px;
+
+}
+
+.sleep-right{
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+}

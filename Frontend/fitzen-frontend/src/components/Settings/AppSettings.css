@@ -1,0 +1,47 @@
+.app-settings{
+
+    background:#1f2937;
+
+    padding:30px;
+
+    border-radius:20px;
+
+}
+
+.app-settings h2{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.setting-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.setting-row span{
+
+    color:white;
+
+}
+
+.setting-row input{
+
+    width:22px;
+
+    height:22px;
+
+    cursor:pointer;
+
+}

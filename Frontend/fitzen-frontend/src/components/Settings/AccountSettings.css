@@ -1,0 +1,61 @@
+.account-settings{
+
+    background:#1f2937;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    margin-bottom:30px;
+
+}
+
+.account-settings h2{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.setting-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.setting-item span{
+
+    color:white;
+
+}
+
+.setting-item button{
+
+    padding:10px 20px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#7c3aed;
+
+    color:white;
+
+    cursor:pointer;
+
+}
+
+.logout-btn{
+
+    background:#dc2626 !important;
+
+}

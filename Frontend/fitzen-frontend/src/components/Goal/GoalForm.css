@@ -1,0 +1,57 @@
+.goal-form{
+    background:#1f2937;
+    padding:30px;
+    border-radius:18px;
+
+    display:grid;
+    gap:18px;
+
+    margin-bottom:35px;
+}
+
+.goal-form input,
+.goal-form select{
+
+    background:#374151;
+    color:white;
+
+    border:none;
+    outline:none;
+
+    padding:16px;
+
+    border-radius:12px;
+
+    font-size:16px;
+}
+
+.goal-form input::placeholder{
+    color:#9ca3af;
+}
+
+.goal-form button{
+
+    background:linear-gradient(135deg,#7c3aed,#2563eb);
+
+    color:white;
+
+    border:none;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.goal-form button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 25px rgba(124,58,237,.4);
+
+}

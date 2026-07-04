@@ -1,0 +1,99 @@
+.goal-card{
+
+    background:#1f2937;
+
+    padding:30px;
+
+    border-radius:22px;
+
+    color:white;
+
+    flex:1;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+}
+
+.goal-card h2{
+
+    margin-bottom:25px;
+}
+
+.circle{
+
+    position:relative;
+
+    width:150px;
+
+    height:150px;
+}
+
+.circle svg{
+
+    width:150px;
+
+    height:150px;
+
+    transform:rotate(-90deg);
+}
+
+.circle circle{
+
+    fill:none;
+
+    stroke-width:12;
+
+    stroke-linecap:round;
+
+    r:60;
+
+    cx:70;
+
+    cy:70;
+}
+
+.circle circle:first-child{
+
+    stroke:#374151;
+}
+
+.circle circle:last-child{
+
+    stroke:#7c3aed;
+
+    stroke-dasharray:377;
+
+    transition:1s;
+}
+
+.percent{
+
+    position:absolute;
+
+    inset:0;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+}
+
+.percent h1{
+
+    font-size:34px;
+}
+
+.percent span{
+
+    color:#9ca3af;
+}

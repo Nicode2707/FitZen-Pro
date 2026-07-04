@@ -1,0 +1,110 @@
+.cards-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+    margin-top:35px;
+}
+
+.dashboard-card{
+
+    padding:28px;
+
+    border-radius:20px;
+
+    background:#1f2937;
+
+    color:white;
+
+    position:relative;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    cursor:pointer;
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.45);
+}
+
+.card-icon{
+
+    width:65px;
+
+    height:65px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:28px;
+
+    margin-bottom:20px;
+
+    color:white;
+}
+
+.dashboard-card h4{
+
+    color:#b8c1d1;
+
+    margin-bottom:10px;
+
+    font-weight:500;
+}
+
+.dashboard-card h2{
+
+    font-size:34px;
+
+    margin-bottom:10px;
+}
+
+.dashboard-card span{
+
+    color:#d1d5db;
+
+    font-size:15px;
+}
+
+/* Orange */
+
+.orange .card-icon{
+
+    background:linear-gradient(135deg,#ff7b00,#ff512f);
+}
+
+/* Blue */
+
+.blue .card-icon{
+
+    background:linear-gradient(135deg,#2563eb,#38bdf8);
+}
+
+/* Cyan */
+
+.cyan .card-icon{
+
+    background:linear-gradient(135deg,#06b6d4,#22d3ee);
+}
+
+/* Purple */
+
+.purple .card-icon{
+
+    background:linear-gradient(135deg,#7c3aed,#9333ea);
+}

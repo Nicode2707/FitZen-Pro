@@ -1,0 +1,17 @@
+.activity-page{
+    padding:30px;
+}
+
+.activity-header{
+    margin-bottom:30px;
+}
+
+.activity-header h1{
+    color:white;
+    font-size:42px;
+}
+
+.activity-header p{
+    color:#9ca3af;
+    margin-top:10px;
+}

@@ -1,0 +1,22 @@
+# Java
+backend/target/
+
+# React
+Frontend/node_modules/
+Frontend/dist/
+
+# IDE
+.idea/
+.vscode/
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store

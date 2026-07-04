@@ -1,0 +1,36 @@
+.task-card{
+
+    margin-top:30px;
+
+    background:#1f2937;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    color:white;
+
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.task-card ul{
+
+    margin-top:20px;
+
+    list-style:none;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+}
+
+.task-card li{
+
+    padding:14px;
+
+    background:#111827;
+
+    border-radius:12px;
+}
