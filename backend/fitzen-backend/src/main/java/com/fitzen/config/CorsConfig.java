@@ -14,9 +14,18 @@ public class CorsConfig {
 
         CorsConfiguration config = new CorsConfiguration();
 
+        // Local Development
         config.addAllowedOrigin("http://localhost:5173");
+
+        // Production Frontend
+        config.addAllowedOrigin("https://fit-zen-pro.vercel.app");
+
+        // Vercel Preview Deployments
+        config.addAllowedOriginPattern("https://*.vercel.app");
+
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
+
         config.setAllowCredentials(true);
 
         UrlBasedCorsConfigurationSource source =
