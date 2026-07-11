@@ -37,7 +37,7 @@ FitZen Pro is a secure, responsive fitness tracker built to replace the "one app
 ## ❓ Why FitZen Pro
 
 | Problem | FitZen Pro's Answer |
-|---|---|
+|----|----|
 | Fitness data scattered across multiple apps | One dashboard for workouts, meals, sleep, water & goals |
 | Weak or session-based auth in hobby projects | Real JWT auth + Spring Security + BCrypt password hashing |
 | Static, table-heavy trackers | Interactive charts, progress bars, animated dashboard |
@@ -100,8 +100,6 @@ FitZen Pro is a secure, responsive fitness tracker built to replace the "one app
 | ![Activity](activity.png.png) | ![Goals](goals.png.png) |
 
 </div>
-
-> Replace the paths above with your own screenshots in `docs/images/` — GitHub renders them automatically once pushed.
 
 ## 🛠️ Tech Stack
 
