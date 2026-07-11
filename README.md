@@ -93,11 +93,11 @@ FitZen Pro is a secure, responsive fitness tracker built to replace the "one app
 
 | Login | Dashboard |
 |:---:|:---:|
-| ![Login](docs/images/login.png) | ![Dashboard](docs/images/dashboard.png) |
+| ![Login](login.png.png) | ![Dashboard](dashboard.png.png) |
 
 | Weekly Activity | Goal Tracking |
 |:---:|:---:|
-| ![Activity](docs/images/activity.png) | ![Goals](docs/images/goals.png) |
+| ![Activity](activity.png.png) | ![Goals](goals.png.png) |
 
 </div>
 
